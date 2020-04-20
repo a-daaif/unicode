@@ -1,0 +1,111 @@
+.container {
+    font-size: 1.1em;
+    text-align: center;
+  }
+  table,
+  td,
+  th {
+    border: 1px solid gray;
+  }
+  td {
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    padding: 3px;
+  }
+  td:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #000;
+  }
+  .col1 select1,
+  .col1 select2 {
+    width: 60px;
+  }
+  table th {
+    color: white;
+    background-color: black;
+    letter-spacing: 0.2em;
+    font-size: 1.1em;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .out {
+    width: 178px;
+    height: 178px;
+    border: 1px solid black;
+    position: absolute;
+    background-color: white;
+    transition: 300ms;
+    box-shadow: 0 0 40px #000;
+    box-sizing: border-box;
+  }
+  .code,
+  .display {
+    font-size: 1.6em;
+    height: 40px;
+    box-sizing: border-box;
+    /* padding-bottom: 0.2em; */
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+  .code {
+    padding: 0.24em;
+  }
+  .code::before {
+    content: "\\u";
+  }
+  .display {
+    height: 158px;
+    font-size: 5em;
+    color: red;
+    border-top: 3px double #999;
+  }
+  #range {
+    position: absolute;
+    /* border: 1px solid #000; */
+    /* box-sizing: border-box; */
+    /* width: 80px; */
+    background: #ccc;
+    box-sizing: border-box;
+    left: 2px;
+    cursor: crosshair;
+  }
+  #range .line-h,
+  #range .line-v {
+    position: absolute;
+  }
+  #range .line-h {
+    width: 100%;
+    height: 1px;
+    border-top: 1px dashed red;
+  }
+  #range .line-v {
+    width: 1px;
+    height: 100%;
+    border-left: 1px dashed red;
+  }
+  .col1 {
+    width: 80px !important;
+  }
+  .col1 select {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .help {
+    background-color: black;
+    position: absolute;
+    color: white;
+    box-sizing: border-box;
+  }
+  .help img {
+    height: 96%;
+    display: block;
+    margin: auto;
+  }
+  .col-cell, .row-cell {
+      box-shadow: 0 0 10px #000;
+      background-color: #AAA;
+  }
+  .col-cell.row-cell {
+      background-color: #FFF;
+  }
